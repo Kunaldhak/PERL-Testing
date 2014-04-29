@@ -1,4 +1,3 @@
-#!/usr/bin/perl
 use warnings;
 use strict;
 use Carp;
@@ -7,7 +6,7 @@ use File::Spec::Functions qw( canonpath );
 use XML::LibXML::Reader;
 use Data::Dumper;
 my $INFO;
-my @ARGV ="C:/DCR"; 
+my @ARGV ="C:/DCR";
 die "Need directories\n" unless @ARGV;
 find(
     sub {
