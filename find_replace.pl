@@ -1,13 +1,12 @@
 use strict;
 use XML::LibXML;
 
-my $file="replacetest.xml";
+my $file="D:\\EN-US\\dcr_beverage_0701_minute_maid_juice_6_bottl_r_2014_01_06.xml";
 my $dom = XML::LibXML->load_xml(location =>$file);
-
-
-for my $id ($dom->findnodes('//class[string()="CLass"]')) {
+for my $id ($dom->findnodes('//value[string()="r"]')) {
     $id->removeChildNodes;
     $id->appendText('DEF');
 }
 
 print $dom->toString
+
