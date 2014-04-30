@@ -20,7 +20,7 @@ foreach my $file (@files) {
 	if ( -e $path ) {
 
 		# print "%FILE \n";
-		print "$path ::\n";-
+		print "$path ::\n";
 		while ( my $row = <FILE> ) {
 			chomp($row);
 			print "$row \n";
