@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HOSTNAME name='apple'>
-<PATROL>
-<ACL>
-<USERNAME name='ml3007'>
-<HOST>*</HOST>
-<PERMISSION>COPS</PERMISSION>
-</USERNAME>
-</ACL>
-</PATROL>
+	<PATROL>
+		<ACL>
+			<USERNAME name='ml3007'>
+				<HOST>*</HOST>
+				<PERMISSION>COPS</PERMISSION>
+			</USERNAME>
+		</ACL>
+	</PATROL>
 </HOSTNAME>
