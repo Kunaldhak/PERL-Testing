@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
- <employee>
-          <name>Pradeep</name>
-          <age>23</age>
-          <sex>M</sex>
-          <department>Programming</department>
-   </employee>
