@@ -1,6 +1,6 @@
 use warnings;
 use strict;
-use autodie;
+
 my @lists = qw(hey hello there you are);
 my @removed = splice @lists, 2;
 print "Using Splice ..  @removed \n" ;

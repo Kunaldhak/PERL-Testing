@@ -31,12 +31,20 @@ foreach my $file (@files) {
 #	print "Record Name : :  $recordname\n";
 #	print "Item Name : $item_name\n value :  $value\n\n";
 #}
-		print "Record Name : :  $recordname\n";
-		print "Item Name : $item_name\n value :  $value\n\n";
+		#print "Record Name : :  $recordname\n";
+		#print "Item Name : $item_name\n value :  $value\n\n";
 
 		#		print "value :  $value\n\n";
 
-	}
+foreach my $record($recordname){
+	my $item_name  = $sections->findvalue('./item/@name');
+		my $value      = $sections->findvalue('./item/value');
+		print "Record Name : :  $recordname\n";
+		print "Item Name : $item_name\n value :  $value\n\n";
 }
+	}
+	
+	}
+
 closedir(DIR);
 

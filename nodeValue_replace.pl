@@ -5,7 +5,7 @@ my $file="D:\\EN-US\\dcr_beverage_0701_minute_maid_juice_6_bottl_r_2014_01_06.xm
 my $dom = XML::LibXML->load_xml(location =>$file);
 for my $id ($dom->findnodes('//value[string()="Bottle"]')) {
     $id->removeChildNodes;
-    $id->appendText('DEF');
+    $id->appendText('Kunal');
 }
 
 print $dom->toString
